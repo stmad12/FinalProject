@@ -1,0 +1,4 @@
+Text Bomber Project
+
+This project comes from a project originally on StackOverflow. Programs and companies exist for email marketing, but those companies do not allow on-demand access to the mailer. The purpose of this project is many-fold - at the surface, it is a way to bug the crap out of other students and/or stress-test Apple’s Messaging app. I have been able to uncover surface level information about the way that iOS manages stress from a preloaded app. The OS seems to have a prioritization system for the stock apps, and the only way to bypass this is to turn off notifications. 
+Putting the receiving device into a Do Not Disturb mode will silence the audible ring, but it will not stop notifications. Push notifications will continue to deliver the messages, and the red badge icon will continue to reflect this. The memory use seems to be quite similar in DND, though, as other processes and apps will still suffer from a lack of available RAM.
