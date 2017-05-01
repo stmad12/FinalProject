@@ -9,7 +9,7 @@ tell application "Messages"
 		set theBuddy to buddy targetBuddy of service id targetService
 		send textMessage to theBuddy
 		 
-		delay (10)
+		delay (10) 
 		
 	end repeat
 	
